@@ -1,0 +1,166 @@
+[Project Header]
+Version = 550
+Platform Code = 4
+Pathname = "/d/Users/Seva/cvi/ChessHorse/ChessHorse.prj"
+CVI Dir = "/c/measurementstudio/cvi"
+VXIplug&play Framework Dir = "/C/VXIPNP/win95"
+Number of Files = 3
+Sort Type = "No Sort"
+Target Type = "Executable"
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Flags = 16
+Drag Bar Left = 135
+Window Top = 48
+Window Left = 18
+Window Bottom = 350
+Window Right = 558
+
+[File 0001]
+File Type = "User Interface Resource"
+Path = "/d/Users/Seva/cvi/ChessHorse/ChessHorse.uir"
+Res Id = 1
+Exclude = False
+Disk Date = 3391740554
+Project Flags = 0
+Window Top = 197
+Window Left = 176
+Window Height = 566
+Window Width = 758
+
+[File 0002]
+File Type = "CSource"
+Path = "/d/Users/Seva/cvi/ChessHorse/ChessHorse.c"
+Res Id = 2
+Exclude = False
+Disk Date = 3391740564
+Project Flags = 0
+Compile Into Object File = False
+Object Format = "Win32-MSVC"
+ForceCompile_Debug = False
+ForceCompile_Release = True
+Window Top = 30
+Window Left = 4
+Window Height = 0
+Window Width = 0
+Source Window State = "1,351,366,351,0,8,0,0,0,123,0,2,0,2,0,38,288,0,307,19,"
+Header Dependencies = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,"
+
+[File 0003]
+File Type = "Include"
+Path = "/d/Users/Seva/cvi/ChessHorse/ChessHorse.h"
+Res Id = 3
+Exclude = False
+Disk Date = 3391740556
+Project Flags = 0
+Window Top = 301
+Window Left = 150
+Window Height = 0
+Window Width = 0
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,0,0,"
+
+[SCC Options]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Comment = ""
+Use Default Comment = False
+Do Not Include PRJ File in Actions = True
+Suppress CVI Error Messages = False
+
+[Compiler Options]
+Default Calling Convention = "cdecl"
+Max Number Of Errors = 10
+Require Prototypes = True
+Require Return Values = True
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = False
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win For Warnings = True
+Show Build Dialog = False
+
+[Run Options]
+Stack Size = 250000
+Debugging Level = "Standard"
+Save Changes Before Running = "Ask"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+Hide Windows = False
+Break At First Statement = False
+
+[Compiler Defines]
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Command Line Args]
+Command Line Args = ""
+
+[Watch Point 1]
+Watch Expression = "3"
+Update Display Continuously = False
+Break When Value Changes = False
+Scope = "Local"
+File = "ChessHorse.c"
+Function = "FUNC_BUTTON"
+DllName = ""
+
+[Included Headers]
+Header 0021 = "/d/Users/Seva/cvi/ChessHorse/ChessHorse.h"
+Header 0001 = "/c/MeasurementStudio/cvi/include/utility.h"
+Header 0002 = "/c/MeasurementStudio/cvi/include/cvidef.h"
+Header 0003 = "/c/MeasurementStudio/cvi/include/cvirte.h"
+Header 0004 = "/c/MeasurementStudio/cvi/include/ansi_c.h"
+Header 0005 = "/c/MeasurementStudio/cvi/include/ansi/assert.h"
+Header 0006 = "/c/MeasurementStudio/cvi/include/ansi/ctype.h"
+Header 0007 = "/c/MeasurementStudio/cvi/include/ansi/errno.h"
+Header 0008 = "/c/MeasurementStudio/cvi/include/ansi/float.h"
+Header 0009 = "/c/MeasurementStudio/cvi/include/ansi/limits.h"
+Header 0010 = "/c/MeasurementStudio/cvi/include/ansi/locale.h"
+Header 0011 = "/c/MeasurementStudio/cvi/include/ansi/math.h"
+Header 0012 = "/c/MeasurementStudio/cvi/include/ansi/setjmp.h"
+Header 0013 = "/c/MeasurementStudio/cvi/include/ansi/signal.h"
+Header 0014 = "/c/MeasurementStudio/cvi/include/ansi/stdarg.h"
+Header 0015 = "/c/MeasurementStudio/cvi/include/ansi/stddef.h"
+Header 0016 = "/c/MeasurementStudio/cvi/include/ansi/stdio.h"
+Header 0017 = "/c/MeasurementStudio/cvi/include/ansi/stdlib.h"
+Header 0018 = "/c/MeasurementStudio/cvi/include/ansi/string.h"
+Header 0019 = "/c/MeasurementStudio/cvi/include/ansi/time.h"
+Header 0020 = "/c/MeasurementStudio/cvi/include/userint.h"
+Max Header Number = 21
+
+[Create Executable]
+Executable File_Debug = "/d/Users/Seva/cvi/ChessHorse/ChessHorse_dbg.exe"
+Target Creation Date_Debug = 3391740560
+Force Creation of Target_Debug = False
+Executable File_Release = ""
+Target Creation Date_Release = 0
+Force Creation of Target_Release = False
+Icon File = ""
+Application Title = ""
+DLL Exports = "Include File Symbols"
+DLL Import Library Choice = "Gen Lib For Current Mode"
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+Type Lib FP File = ""
+Type Lib Guid = ""
+Uses DataSocket = 0
+Uses NIReports = 0
+Uses DCom95 = 0
+Instrument Driver Support Only = False
+
+[External Compiler Support]
+UIR Callbacks File Option = 0
+Using LoadExternalModule = False
+Create Project Symbols File = True
+UIR Callbacks Obj File = ""
+Project Symbols H File = ""
+Project Symbols Obj File = ""
+
+[DLL Debugging Support]
+External Process Path = ""
+
